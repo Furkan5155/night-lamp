@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang = "en">
+    
+<head>
+    
+    <meta charset = "utf-8">
+    <title>game house</title>
+    <link rel = "stylesheet" href = "script.css" type = "text/css"/>
+    <link rel="icon" type="image/png" href="pictures/houselogo.png"/>
+
+</head>
+<body>
+
+    <h3>Music List</h3>
+    <audio controls> <!--Manuel olarak kullanıcı tıkladığı zaman istediği müziği dinleyebilecek,yani, 
+        CSS lazım olacak tıklanacak butonlar için. Dinamik olması için javascript öğrenmeliyim-->
+        <source src = "./sounds/goinghome.mp3">
+        <source src = "./sounds/goinghome.webm">
+        <source src = "./sounds/goinghome.ogg">
+    </audio>
+    <audio controls>
+        <source src = "./sounds/miragemelody.mp3">
+        <source src = "./sounds/miragemelody.webm">
+        <source src = "./sounds/miragemelody.ogg">
+    </audio>
+    <audio controls>
+        <source src = "./sounds/silentnight.mp3">
+        <source src = "./sounds/silentnight.webm">
+        <source src = "./sounds/silentnight.ogg">
+    </audio>
+
+    <header>
+        <img src = "pictures/ghlogo.png" alt = "Game House Logo" 
+        title = "Designer by ppangman" width = "160" 
+        height = "160" class="orange"><b style="color:orange;font-size:80px;">
+        Game House</b></img> <!--Logonun sağında yazan yazının ortalanması lazım-->
+        <h1 class="orange" style="font-size:50px;"><b>Home</b></h1>
+    </header>
+
+    <nav>
+        <b class = "orange">
+        <a href = "freegames.html">Free Games</a> |
+        <a href = "news.html">Game News</a> |
+        <a href = "forum.html">Game Forum</a> |
+        <a href = "http://www.google.com/maps/search/game+coffe/" target = "_blank" 
+        title = "Open your location"> 
+            Game Coffe Locations</a> <!--Kişinin yaşadığı konuma göre en yakınında olan oyun kafeleri
+            işaretleyecek google haritalar üzerinde. Kesinlikle düzenlemem lazım-->
+    </b>
+    </nav>
+
+    <aside>
+
+
+    </aside>
+
+    <article>
+        <h1>The Prominent News</h1> <!--En çok bakılan haberler paylaşılacak-->
+        <a href = "news.html"><img src="pictures/vryeni.jpg" width = "320" height = "240"><strong>
+        New VR will be announced soon in 2025    
+        </strong>
+        </a>
+
+        <h1>The Prominent Forum Shares</h1> <!--En çok bakılan ve yorum yazılan forumlar yer alacak-->
+        <a href = "forum.html"></a>
+
+        <h1>Günün Ücretsiz Oyunlar</h1> <!--Bazı günün ücretsiz oyunları gözükecek. 
+        Bir sayı sınırı olacak çünkü kullanıcıların o siteyi ziyaret etmesi lazım-->
+        <a href = "freegames.html">Now<cite>Doom 2016</cite>Free</a>
+
+        </h1>
+    </article>
+
+    <footer>
+        <p>&copy; 2024 Game House. All rights reserved.</p> <!-- &copy; ifadesi,
+        telif hakkı sembolünü (©) temsil eder. -->
+    </footer>
+
+    
+</body>
+</html>
