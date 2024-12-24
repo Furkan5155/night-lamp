@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="icon" type="image/png" href="pictures/favicon.png"/>
+
+</head>
+<body>
+
+    <form name="forgorusarname"action="mailto:" method="post" enctype="text/plain"> <!-- Ayarlanması lazım 
+        kullanıcının kendi email hesabına doğrulama kodu gönderilecek-->
+        <table border="9">
+            <caption><b>Write your email address for your forgotten username and the new verification code will be in front of you.
+You can see your username after writing in the empty box on the page</b></caption>
+                <thead>
+                    <tr><th>Email</th></tr>
+                </thead>
+            <tbody>
+    <tr><td><input type="email" name="forgotusarnameemail" maxlength="50" size="60" autofocus="autofocus" 
+        placeholder="Please enter your email address for your username" required></td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td><input type="reset" value="Clean"> <input type="submit" value="Ask for a verification code"></td></tr>
+        </table>
+    </form>
+</body>
+</html>

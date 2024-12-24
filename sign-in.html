@@ -5,29 +5,31 @@
 
     <meta charset="utf-8">
     <title></title>
-    <link rel="icon" type="image/png" href="pictures/houselogo.png"/>
+    <link rel="icon" type="image/png" href="pictures/favicon.png"/>
 </head>
 <body>
-    <form name="email" action="admin.html" method="get">
+    <form name="user" action="admin.html" method="get" enctype="text/plain">
         <table border="9">
-            <caption><b>Login</b></caption>
+            <caption style="font-size:24px;"><b>Sign In</b></caption>
             <thead>
-                <tr><th>Username</th></tr>
+                <tr><th>Username <a href="forgot-username.html" style="font-size:small;">Forgot usarname?</a></th></tr>
             </thead>
             <tbody>
-                <tr><td><input type="text" name="usarname" maxlength="50" size="57" required></td></tr>
+                <tr><td><input type="text" name="userusarname" maxlength="50" size="57" autofocus="autofocus" 
+                    placeholder="Please enter your username" title="Please fill this area" required></td></tr>
             </tbody>
                 <thead>
-                    <tr><th>Password<a href = "forgot-password.html" style="color:blue;font-size:small;">
+                    <tr><th>Password<a href = "forgot-password.html" style="font-size:small"required>
                         Forgot password?</a></th></tr>
                 </thead>
                 <tbody>
-                    <tr><td><input type="password" name="password" maxlength="25" size="57" required</td></tr>
-                </tbody>
+                    <tr><td><input type="password" name="userpassword" maxlength="25" size="57" placeholder="Please enter your password"
+                        title="Please fill this area" required></td></tr>
+                </tbody>                    
                 <tfoot>
+                    <tr><td><input type="reset" value="Clean"> <input type="submit" value="Sign In"></td></tr>
                     <tr><td>Are you new in the game house? <a href="sign-up.html">Create an account by clicking here</a></td></tr>
                 </tfoot>
-
 
         </table>
     </form>

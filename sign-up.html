@@ -5,33 +5,39 @@
     
     <meta charset="utf-8">
     <title></title>
-<link rel="icon" type="image/png" href="pictures/houselogo.png"/>
+<link rel="icon" type="image/png" href="pictures/favicon.png"/>
 </head>
 <body>
 
-    <form name="newuser" action="forum.html" method="get">
+    <form name="newuser" action="forum.html" method="get" enctype="text/plain">
         <table border="9">
-        <caption><b>Create an account</b></caption>
+        <caption style="font-size:24px;"><b>Create an account</b></caption>
         <thead>
             <tr><th>Username</th></tr>
         </thead>
         <tbody>
-            <tr><td><input type="text" name="newuserusarname" maxlength="50" size="57">
+            <tr><td><input type="text" name="newusername" maxlength="50" size="57" autofocus="autofocus" 
+                placeholder="Please create a username" title="Please fill this area" required></tr></td>
         </tbody>
         <thead>
             <tr><th>Email</th></tr>
         </thead>
         <tbody>
-            <tr><td><input type="email" name="newuseremail" maxlength="50" size="57">
+            <tr><td><input type="email" name="newuseremail" maxlength="50" size="57" placeholder="Please enter email"
+                title="Please fill this area" required></td></tr>
             </tbody>
             <thead>
                 <tr><th>Password</th></tr>
             </thead>
             <tbody>
-                <tr><td><input type="password" name="newuserpassword" maxlength="25" size="57"</td></tr>
+                <tr><td><input type="password" name="newuserpassword" maxlength="25" size="57" placeholder="Please create a password"
+                    title="Please fill this area" required></td></tr>
             </tbody>
             <tfoot>
-                <tr><td>Do you already have an account? <a href = "sign-in.html">Click here if you have an account</a>
+                <tr><td><input type="reset" value="Clean"> <input type="submit" value="Sign Up"></td></tr>
+                <tr><td>Do you already have an account? <a href = "sign-in.html">Click here if you have an account</a></td></tr>
+                </tfoot>
         </table>
     </form>
 </body>
+</html>
