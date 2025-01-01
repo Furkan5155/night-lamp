@@ -1,28 +1,24 @@
-.orange{
-    color: orange;
+.hlogo{
+
+    color:orange;
+    font-size:80px;
+}
+
+.subheading{
+    
+    color:orange;
     font-family:Arial, Helvetica, sans-serif;
-}
-
-#red{
-
-    color:red;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:25px;
+    font-size:34px;
 
 }
 
-a{
-    color:orange;
+a, .link{
+    color: orange;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-h4{
-    color:orange;
-    font-family:sans-serif;
-    font-size:15px;
-}
-
-h1, h2{
-
-    color:orange;
+.subjecth{
+    color: orange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
