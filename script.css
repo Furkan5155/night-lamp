@@ -1,17 +1,28 @@
-.orange
-{
+.orange{
     color: orange;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-a, h1
-{
+#red{
+
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:25px;
+
+}
+
+a{
     color:orange;
 }
 
-h4
-{
+h4{
     color:orange;
     font-family:sans-serif;
     font-size:15px;
+}
+
+h1, h2{
+
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
