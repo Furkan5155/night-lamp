@@ -12,7 +12,7 @@
 
 }
 
-a, .link{
+b, b a{
     color: orange;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -20,5 +20,14 @@ a, .link{
 .subjecth{
     color: orange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+h2 a{
+    color:black;
+}
+
+p{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
