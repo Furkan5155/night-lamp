@@ -12,7 +12,7 @@
 
 }
 
-b, b a{
+span a{
     color: orange;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -30,4 +30,8 @@ h2 a{
 p{
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.test{
+    color:aqua;
 }
