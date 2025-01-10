@@ -1,36 +1,36 @@
 .hlogo{
-
     color:orange;
     font-size:80px;
 }
-
 .subheading{
-    
     color:orange;
     font-family:Arial, Helvetica, sans-serif;
     font-size:34px;
-
 }
-
 span a{
     color: orange;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-
+span a:hover{
+    color:darkgrey;
+}
+span a:active{
+    color:gray;
+}
+span a:focus{
+    color:gray;
+}
 .subjecth{
     color: orange;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
 }
-
 h2 a{
     color:black;
 }
-
 article>header h2{
     font-size: 32px;
 }
-
 article>p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:17px;

@@ -4,13 +4,19 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+    <style type="text/css"></style>
     <link rel="icon" type="image/png" href="pictures/favicon.png"/>
     <link rel="stylesheet" type="text/css" href="script.css" />
 </head>
 <body>
+    <span>
+        <a href="sign-in.html">Sign In</a>
+        <a href="sign-up.html">Sign Up</a><br><br>
+        <a href="visitorscore.html">Rate the website</a>
+    </span>
     <header> <!--Sayfa başlığı ve logosu-->
         <img src="pictures/ghlogo.png" title="Designer by ppangman" alt="Game House Logo" height="160" width="160">
-        <span class="hlogo">Game House</span></img>
+        <span class="hlogo">Game House</span>
         <h1 class="subheading">News</h1>
     </header>
     <nav> <!--Site bağlantıları-->
@@ -18,11 +24,12 @@
         'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
         <a href="homepage.html">Home</a> |
         <a href="freegames.html">Free Games</a> |
-        <a href="forum.html">Game Forum</a> |
-        <a href="announcements.html">Website Announcements</a>
+        <a href="forum.html">Game Forum</a>
     </span>
 </nav>
-<aside>
+<aside> <!--Sayfa içi haber kategorilerine yönlendirecek-->
+    Game Musics
+    Gameplays
 </aside>
 <article>
     <form action=".php" method="get">
@@ -31,14 +38,27 @@
     <label for="content">Content:</label>
     <textarea name="content" id="content" rows="10" cols="40" required></textarea><br><br>
     <input type="submit" value="Share">
+    </form>
+        <article>
+        <header>
+            <h2>Welcome to Noxus - Bite Marx (ft. Teya) | 2025 Season 1 Video Story - League of Legends</h2>
+        </header>
+        <figure>
+        <iframe height="340" width="540" src="https://www.youtube.com/embed/I76wvt0aEE4?autoplay=1&muted=1" allowfullscreen
+        style="border:none;"
+        allow="fullscreen; autoplay; encrypted-media; clipboard-write; accelerometer; gyroscope; picture-in-picture;">
+    </iframe>
+    <figcaption>The new League of Legends 2025 1st Season Video Story was released on Youtube.</figcaption>
+    </figure>
+        </article>
     <header> <!--Sayfa yetkilisinin girdiği haber örneği diyelim buna-->
         <h2>Watch the New Dying Light: The Beast Trailer</h2>
     </header>
         <p>We just unveiled our second trailer at The Game Awards. 
             Watch it now and find out why every Dying Light fan is talking about it.</p>
             <figure> <!--Dying Light ile ilgili semantik video fragmanı-->
-            <iframe height="340" width="540" src="https://www.youtube.com/embed/8Tkwem4M1uw?autoplay=1&mute=1" style="border:none;" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen>
+            <iframe height="340" width="540" src="https://www.youtube.com/embed/8Tkwem4M1uw" allowfullscreen style="border:none;" 
+            allow="fullscreen; encrypted-media; clipboard-write; accelerometer; gyroscope; picture-in-picture;">
             </iframe>
             <figcaption>Watch the new Dying Light: The Beast trailer on YouTube.</figcaption>
         </figure>
@@ -55,5 +75,6 @@
                 Wishlist the game now to discover what those things might be and get ready to unleash the beast in Summer 2025.
             </p>
         </article>
+
 </body>
 </html>
