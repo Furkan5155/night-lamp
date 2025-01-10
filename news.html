@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="script.css" type="text/css"/>
     <link rel="icon" type="image/png" href="pictures/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="script.css" />
 </head>
 <body>
     <header> <!--Sayfa başlığı ve logosu-->
@@ -25,7 +25,13 @@
 <aside>
 </aside>
 <article>
-    <header>
+    <form action=".php" method="get">
+    <label for="title">Title</label>
+    <input name="title" id="title" maxlength="35" size="57" required><br><br>
+    <label for="content">Content:</label>
+    <textarea name="content" id="content" rows="10" cols="40" required></textarea><br><br>
+    <input type="submit" value="Share">
+    <header> <!--Sayfa yetkilisinin girdiği haber örneği diyelim buna-->
         <h2>Watch the New Dying Light: The Beast Trailer</h2>
     </header>
         <p>We just unveiled our second trailer at The Game Awards. 
@@ -48,5 +54,6 @@
                 the Swamps or the Baron’s Laboratory. But there's more to this place than meets the eye. <br><br>
                 Wishlist the game now to discover what those things might be and get ready to unleash the beast in Summer 2025.
             </p>
+        </article>
 </body>
 </html>
