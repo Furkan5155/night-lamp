@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <style type="text/css"></style>
+    <style type="text/css">
+        input[type|="submit"]{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
     <link rel="icon" type="image/png" href="pictures/favicon.png" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -33,7 +37,7 @@
 </aside>
 <article>
     <form action=".php" method="get">
-    <label for="title">Title</label>
+    <label for="title">Title:</label>
     <input name="title" id="title" maxlength="35" size="57" required><br><br>
     <label for="content">Content:</label>
     <textarea name="content" id="content" rows="10" cols="40" required></textarea><br><br>

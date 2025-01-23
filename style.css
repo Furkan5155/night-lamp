@@ -1,15 +1,42 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
 .hlogo{
     color:orange;
     font-size:80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    word-spacing: 0.20em;
+    font-variant: small-caps;
 }
 .subheading{
     color:orange;
-    font-family:Arial, Helvetica, sans-serif;
     font-size:34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+}
+.subjecth{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+p{
+    text-indent: 2em;
+    text-align: left;
+    line-height: 1.65em;
+    background:url(./pictures/ghlogo.png);
+    background-size: 280px 280px;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position-x: center;
+    background-position-y: center;
 }
 span a{
     color: orange;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:none;
 }
 span a:hover{
     color:darkgrey;
@@ -20,11 +47,7 @@ span a:active{
 span a:focus{
     color:gray;
 }
-.subjecth{
-    color: orange;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-}
+
 h2 a{
     color:black;
 }
